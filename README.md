@@ -2,8 +2,6 @@
 
 This is a simple Azure Function App built using Python, created via the Azure Portal, and exposed through an HTTP trigger.
 
-
-
 ## 🔧 How it works
 
 - Sends a response based on a query string or JSON body parameter.
@@ -27,4 +25,8 @@ Hello, sri. This HTTP triggered function executed successfully.
 - ## 📂 Folder Structure
 - hellocloud/ ├── HttpTrigger1/ │ ├── init.py │ ├── function.json ├── host.json ├── requirements.txt
 
-- 
+### ✨ 4. Future Upgrade Ideas (Optional)
+
+- CI/CD (auto-deploy to Azure when you push changes)
+- **Timer Trigger** (runs every X minutes)
+- **Blob Trigger** (runs when a file is uploaded to Azure Blob Storage)
